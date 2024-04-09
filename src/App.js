@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Jake from "./pages/our-group/jake.js"
+import Joseph from "./pages/our-group/joseph.js"
 
 
 export default function App() {
@@ -12,7 +13,7 @@ export default function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="jake" element={<Jake />} />
-          <Route path="joseph" element={<joseph />}/>
+          <Route path="joseph" element={<Joseph />}/>
         </Route>
       </Routes>
     </BrowserRouter>

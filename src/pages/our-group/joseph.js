@@ -1,12 +1,12 @@
 import React from "react";
 
-const joseph = () => {
+const Joseph = () => {
     return (
     <body>
         <h1>RiceofAsia</h1>
         <p>fwafwafwafafafafawf</p>
         <h2>joseph</h2>
-    </body>);
+    </body>)
   };
   
-  export default joseph;
+  export default Joseph;
