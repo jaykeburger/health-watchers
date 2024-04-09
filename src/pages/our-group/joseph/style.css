@@ -1,0 +1,35 @@
+#paragraph1{
+    background-color: aqua;
+    opacity: 0.9;
+}
+
+#My_Name {
+    font-family: cursive;
+    text-align: center;
+}
+
+
+#paragraph2 {
+    color: red;
+    text-decoration: underline solid blue;
+}
+
+#piccy {
+    text-align: center;
+    transition: 1s;
+}
+
+#list {
+    transition: 1s;
+}
+
+#list:hover{
+    background-color: red;
+    rotate: 360deg;
+    
+}
+
+#piccy:hover{
+    transform: rotateY(360deg);
+}
+
