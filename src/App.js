@@ -2,8 +2,9 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
-import Jake from "./pages/our-group/jake.js"
-import Joseph from "./pages/our-group/joseph.js"
+import Jake from "./pages/our-group/jake.js";
+import Joseph from "./pages/our-group/joseph.js";
+import Sara from "./pages/our-group/Sara.js";
 
 
 export default function App() {
