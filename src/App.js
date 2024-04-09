@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./pages/Layout";
 import Home from "./pages/Home";
 import Jake from "./pages/our-group/jake.js"
-import Joseph from "./pages/our-group/joseph/joseph.js"
+import Joseph from "./pages/our-group/joseph.js"
 
 
 export default function App() {

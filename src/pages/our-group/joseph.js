@@ -1,9 +1,9 @@
 import React from "react";
-import image1 from "./Pictures/geneirc man 3.jpg";
-import image2 from "./Pictures/general guy.jpg";
-import image3 from "./Pictures/generic man 2.jpg";
-import image4 from "./Pictures/man-doing-laundry.jpg";
-import "./style.css"
+import image1 from "./joseph/Pictures/geneirc man 3.jpg";
+import image2 from "./joseph/Pictures/general guy.jpg";
+import image3 from "./joseph/Pictures/generic man 2.jpg";
+import image4 from "./joseph/Pictures/man-doing-laundry.jpg";
+import "./joseph/style.css"
 
 const Joseph = () => {
     return (
