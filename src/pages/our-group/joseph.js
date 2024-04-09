@@ -2,11 +2,11 @@ import React from "react";
 
 const joseph = () => {
     return (
-    <div>
+    <body>
         <h1>RiceofAsia</h1>
         <p>fwafwafwafafafafawf</p>
-        <h2 style = "color: blue;">joseph</h2>
-    </div>);
+        <h2>joseph</h2>
+    </body>);
   };
   
   export default joseph;
