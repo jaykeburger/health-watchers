@@ -19,13 +19,15 @@ export default function App() {
           <Route index element={<Home />} />
           <Route path="settings" element={<Settings />} />
           <Route path="profile" element={<Profile />}/>
-          <Route path="leaderboard" element={<Leaderboard />}/>
+          <Route path="leaderboard" element={<leaderboard />}/>
           <Route path="denise" element={<Denise />}/>
         </Route>
       </Routes>
     </BrowserRouter>
   );
 }
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App />);
