@@ -3,7 +3,7 @@ const Denise = () => {
     return (
         <div>
             <h1>Denise</h1>
-                <p style="color: purple;">My favorite types of food are typically cheesy treats</p>
+                <p style="color: pink;">My favorite types of food are typically cheesy treats</p>
             <br/>
         </div>
     )
