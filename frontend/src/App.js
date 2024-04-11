@@ -1,10 +1,14 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./pages/Layout.js";
-import Home from "./pages/Home.js";
+import Layout from "./components/Layout.js";
 import Jake from "./pages/our-group/jake.js";
 import Joseph from "./pages/our-group/joseph.js";
 import Sara from "./pages/our-group/Sara.js";
+import Home from "./pages/landingpage.js";
+import Leaderboard from "./pages/leaderboard.js";
+import Settings from "./pages/settings.js";
+import Profile from "./pages/profile.js";
+
 
 export default function App() {
   return (
@@ -12,9 +16,9 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="jake" element={<Jake />} />
-          <Route path="joseph" element={<Joseph />}/>
-          <Route path="sara" element={<Sara />}/>
+          <Route path="settings" element={<Settings />} />
+          <Route path="profile" element={<Profile />}/>
+          <Route path="leaderboard" element={<Leaderboard />}/>
         </Route>
       </Routes>
     </BrowserRouter>
