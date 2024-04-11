@@ -15,6 +15,7 @@ export default function App() {
           <Route path="jake" element={<Jake />} />
           <Route path="joseph" element={<Joseph />}/>
           <Route path="sara" element={<Sara />}/>
+          <Route path="denise" element={<Denise />}/>
         </Route>
       </Routes>
     </BrowserRouter>
