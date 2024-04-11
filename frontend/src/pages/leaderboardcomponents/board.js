@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function board() {
+export default function Board() {
   return (
     <div className = "board">
         <h1 className = "leaderboard">Leaderboard</h1>
@@ -9,7 +9,7 @@ export default function board() {
             <button>7 Days</button>
             <button>30 Days</button>
             <button>All Time</button>
-        </div>å
+        </div>
     </div>
-  )
+  );
 }

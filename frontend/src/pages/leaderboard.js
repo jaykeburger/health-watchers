@@ -1,5 +1,5 @@
 import React from "react";
-import board from './leaderboardcomponents/board.js';
+import Board from './leaderboardcomponents/board.js';
 import './leaderboardcomponents/boardstyle.css';
 
 /*const Leaderboard = () => {
@@ -9,12 +9,12 @@ import './leaderboardcomponents/boardstyle.css';
     </div>);
   };*/
   
-function leaderboard(){
+function Leaderboard(){
   return(
     <div className="leaderboard">
-      <board/>
+      <Board/>
     </div>
   )
 }
 
-  export default leaderboard;
+  export default Leaderboard;
