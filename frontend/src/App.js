@@ -4,6 +4,7 @@ import Layout from "./components/Layout.js";
 import Jake from "./pages/our-group/jake.js";
 import Joseph from "./pages/our-group/joseph.js";
 import Sara from "./pages/our-group/Sara.js";
+import Denise from "./pages/our-group/denise.js";
 import Home from "./pages/landingpage.js";
 import Leaderboard from "./pages/leaderboard.js";
 import Settings from "./pages/settings.js";
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="settings" element={<Settings />} />
           <Route path="profile" element={<Profile />}/>
           <Route path="leaderboard" element={<Leaderboard />}/>
+          <Route path="denise" element={<Denise />}/>
         </Route>
       </Routes>
     </BrowserRouter>
