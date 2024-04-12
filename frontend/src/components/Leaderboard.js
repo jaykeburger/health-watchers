@@ -8,6 +8,7 @@ const Leaderboard_Sidebar = () => {
                 <li>Bill</li>
                 <li>Bob</li>
                 <li>Sarge</li>
+                <li>Jack</li>
             </ul>
         </div>
     );
