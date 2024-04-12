@@ -1,12 +1,15 @@
 import React from "react";
 import Leaderboard_Sidebar from "../components/Leaderboard";
-import Profile_Sidebar from "../components/Profile_Sidebar";
+import Dashboard from "../components/DashBoard";
+
+
 
 const Home = () => {
     return (
-    <div>
-        <Profile_Sidebar/>
+    <div className="app">
+        <Dashboard className="dashboard"/>
         <Leaderboard_Sidebar/>
+
     </div>
     );
 }

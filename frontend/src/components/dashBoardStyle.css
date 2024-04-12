@@ -1,0 +1,52 @@
+.profile-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+  }
+  
+  .profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .profile-details {
+    flex: 1;
+  }
+  
+  .status-indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .profile-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+
+  }
+  
+
+/* 
+  .app {
+    max-width: 70vh;
+    margin: 0 auto;
+    border: 2px solid #ccc; 
+    padding: 20px; 
+  }
+*/
+  
+
+  h1 {
+    text-align: center;
+  }
+  
