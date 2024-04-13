@@ -1,27 +1,36 @@
 import React from 'react'
 
-export default function Profiles() {
+export default function Profiles({Leaderboard}) {
   return (
     <div id="profile">
-      {Item()}
+      {Item(Leaderboard)}
     </div>
   )
 }
 
-function Item(){
+function Item(data){
   return(
-    <div className = "flex">
-      <div className = "item">
-        <img src={"./pages/our-group/joseph/Pictures/geneirc man 3.jpg"}></img>
-        
-        <div className = "info">
-          <h3 className = 'name text-dark'>Name</h3>
-          <span>Location</span>
+
+    <>
+    {
+      data.map((value, index)=>(
+      <div className = "flex" key = {index}>
+        <div className = "item">
+          <img src={value.img} alt =""/>
+          
+          <div className = "info">
+            <h3 className = 'name text-dark'>{value.name}</h3>
+            <span>{value.location}</span>
+          </div>
         </div>
-      </div>
-      <div className = "item">
-        <span>Score</span>
-      </div>
+        <div className = "item">
+          <span>{value.score}</span>
+        </div>
     </div>
+      )
+      )
+    }
+    </>
+
   )
 }
