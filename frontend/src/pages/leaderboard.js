@@ -1,7 +1,14 @@
 import React from "react";
+import Board from './leaderboardcomponents/board.js';
+import './leaderboardcomponents/boardstyle.css';
 
-const Leaderboard = () => {
-    return <h1>Leaderboard</h1>;
-  };
   
+function Leaderboard(){
+  return(
+    <div className="leaderboard">
+      <Board/>
+    </div>
+  )
+}
+
   export default Leaderboard;

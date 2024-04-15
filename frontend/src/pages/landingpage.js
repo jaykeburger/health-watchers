@@ -1,7 +1,17 @@
 import React from "react";
+import Leaderboard_Sidebar from "../components/Leaderboard";
+import Dashboard from "../components/DashBoard";
+
+
 
 const Home = () => {
-    return <h1>Home</h1>;
-  };
+    return (
+    <div className="app">
+        <Dashboard className="dashboard"/>
+        <Leaderboard_Sidebar/>
+
+    </div>
+    );
+}
   
-  export default Home;
+export default Home;
